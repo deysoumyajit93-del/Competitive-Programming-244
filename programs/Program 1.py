@@ -3,7 +3,7 @@ N = int(input("Enter number of students: "))
 attendance = []
 
 if N <= 0:
-    print("Number of students must be greater than 0.")
+    print("Number of students must be greater than 0")
 else:
     for i in range(N):
         value = float(input(f"Enter attendance for student {i + 1}: "))
