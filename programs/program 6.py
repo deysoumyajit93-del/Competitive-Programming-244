@@ -1,0 +1,5 @@
+base = int(input("Enter base address: "))
+i = int(input("Enter index: "))
+w = int(input("Enter element size in bytes: "))
+address = base + (i * w)
+print(f"Address of A[{i}] = {address}")
